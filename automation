@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>NobleCore AI Agency - Premium AI Automation</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap');
+
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #0b1a3d, #1e2a56);
+    color: #f8f1e7;
+  }
+
+  header {
+    background-color: #1a274b;
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 4px solid #d4af37;
+  }
+
+  header h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 0;
+    letter-spacing: 2px;
+    color: #d4af37;
+    text-shadow: 0 0 8px #d4af37;
+  }
+
+  header p {
+    margin-top: 8px;
+    font-size: 1.25rem;
+    color: #f8f1e7cc;
+  }
+
+  main {
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+
+  .intro {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .intro h2 {
+    font-weight: 600;
+    font-size: 2rem;
+    color: #d4af37;
+    text-shadow: 0 0 6px #b89938;
+  }
+
+  .intro p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 10px auto 0;
+    color: #e3d9b5;
+  }
+
+  .pricing-table {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .plan {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+    padding: 30px 25px;
+    width: 320px;
+    color: #f8f1e7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease;
+  }
+
+  .plan:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px #d4af37aa;
+  }
+
+  .plan h3 {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 12px;
+    color: #d4af37;
+    text-shadow: 0 0 6px #b89938;
+  }
+
+  .price {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 12px 0 20px;
+    color: #f8f1e7;
+    letter-spacing: 1.5px;
+  }
+
+  ul.features {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 25px;
+    color: #e3d9b5;
+  }
+
+  ul.features li {
+    margin-bottom: 12px;
+    font-size: 1.05rem;
+  }
+
+  .button {
+    background: #d4af37;
+    color: #1a1a1a;
+    text-decoration: none;
+    padding: 15px 0;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-align: center;
+    display: block;
+    box-shadow: 0 0 12px #d4af37cc;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  .button:hover {
+    background: #b89938;
+    color: #111;
+    box-shadow: 0 0 18px #b89938ee;
+  }
+
+  footer {
+    margin: 60px 0 30px;
+    text-align: center;
+    color: #bba95d;
+    font-size: 0.9rem;
+    letter-spacing: 1.2px;
+  }
+
+  @media (max-width: 960px) {
+    .pricing-table {
+      flex-direction: column;
+      align-items: center;
+    }
+    .plan {
+      width: 90%;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>NobleCore AI Agency</h1>
+  <p>Premium 24/7 AI Automation for Salons & Beyond</p>
+</header>
+
+<main>
+  <section class="intro">
+    <h2>Choose Your Plan</h2>
+    <p>Empower your business with smart AI scheduling and automation — tailored plans for every scale.</p>
+  </section>
+
+  <section class="pricing-table">
+    <!-- Basic Plan -->
+    <div class="plan">
+      <h3>Basic Plan</h3>
+      <p class="price">$300 / month</p>
+      <ul class="features">
+        <li>200 minutes / month</li>
+        <li>Bonus: 260 mins/month for 6 months</li>
+        <li>Bonus: 300 mins/month for 12 months</li>
+        <li>Perfect for small salons</li>
+      </ul>
+      <a href="https://buy.stripe.com/test_eVq6oIacH2vj0KD8z23Ru00" class="button" target="_blank" rel="noopener">Subscribe Monthly</a>
+      <a href="https://buy.stripe.com/test_6oUeVe4Snfi5ctl6qU3Ru01" class="button" style="margin-top: 10px;" target="_blank" rel="noopener">Subscribe 6 Months (Save $150)</a>
+      <a href="https://buy.stripe.com/test_7sY14o4Sn2vj50T4iM3Ru02" class="button" style="margin-top: 10px;" target="_blank" rel="noopener">Subscribe 12 Months (Save $300)</a>
+    </div>
+
+    <!-- Standard Plan -->
+    <div class="plan">
+      <h3>Standard Plan</h3>
+      <p class="price">$349 / month</p>
+      <ul class="features">
+        <li>500 minutes / month</li>
+        <li>Bonus: 600 mins/month for 6 months</li>
+        <li>Bonus: 700 mins/month for 12 months</li>
+        <li>Ideal for growing salons</li>
+      </ul>
+      <a href="https://buy.stripe.com/test_4gM3cw84z4Drctl3eI3Ru03" class="button" target="_blank" rel="noopener">Subscribe Monthly</a>
+      <a href="https://buy.stripe.com/test_3cI14oacHc5T64X16A3Ru04" class="button" style="margin-top: 10px;" target="_blank" rel="noopener">Subscribe 6 Months (Save $150)</a>
+      <a href="https://buy.stripe.com/test_fZu6oIesXgm9ald9D63Ru05" class="button" style="margin-top: 10px;" target="_blank" rel="noopener">Subscribe 12 Months (Save $300)</a>
+    </div>
+
+    <!-- Premium Plan -->
+    <div class="plan">
+      <h3>Premium Plan</h3>
+      <p class="price">$899 / month</p>
+      <ul class="features">
+        <li>1,500 minutes / month</li>
+        <li>Bonus: 1,700 mins/month for 6 months</li>
+        <li>Bonus: 2,000 mins/month for 12 months</li>
+        <li>Best for large salons & chains</li>
+      </ul>
+      <a href="https://buy.stripe.com/test_9B66oI98D9XLeBt5mQ3Ru06" class="button" target="_blank" rel="noopener">Subscribe Monthly</a>
+      <a href="https://buy.stripe.com/test_00w9AUdoT2vj0KD5mQ3Ru07" class="button" style="margin-top: 10px;" target="_blank" rel="noopener">Subscribe 6 Months (Save $300)</a>
+      <a href="https://buy.stripe.com/test_bJe3cw3Oj5HveBt5mQ3Ru08" class="button" style="margin-top: 10px;" target="_blank" rel="noopener">Subscribe 12 Months (Save $600)</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 NobleCore AI Agency. All rights reserved.
+</footer>
+
+</body>
+</html>
